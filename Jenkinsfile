@@ -3,22 +3,22 @@ pipeline {
      stages {
         stage('Build') {
             steps {
-                echo 'Hello Peter!'
+                echo 'Hello Siddhi!'
             }
         }
         stage('Test') {	
             steps {
-                echo 'Peter listen to me, you idiot!'
+                echo 'Siddhi listen to me, you idiot!'
             }
         }
         stage('Deploy1') {
             steps {
-                echo 'mj misses you'
+                echo 'situationship misses you'
             }
         }
         stage('Deploy2') {
             steps {
-                echo 'Venom gonna come for you'
+                echo 'He is gonna come for you'
             }
         }
     }
